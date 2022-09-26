@@ -71,3 +71,8 @@ void PS3::printdata() {
   }
   printf("\n");
 }
+void PS3::getdata2(char data[]){
+    for (int i = 1; i < 8; i++) {
+        data[i]=PS3Data[i];
+    }
+}

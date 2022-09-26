@@ -104,6 +104,8 @@ public:
    **/
   void printdata();
 
+  void getdata2(char *);
+
 private:
   char PS3Data[8];
   void (*fpFunc)();
